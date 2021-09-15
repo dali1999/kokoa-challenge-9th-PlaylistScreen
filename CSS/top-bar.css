@@ -1,0 +1,14 @@
+.top-bar {
+  margin-bottom:30px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-bar__icon {
+  position: absolute;
+  left: 20px;
+}
+.top-bar__text {
+  font-size: 30px;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.playlist-main--sm{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .playlist-main__info__title--sm {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .playlist-main__info__singer--sm {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .playlist-main__cover--sm{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #222;
+    border-radius: 11px;
+    margin-right: 15px;
+    background-color: royalblue;
+  }
+  

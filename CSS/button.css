@@ -1,0 +1,37 @@
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.button div {
+  position: relative;
+  border: 2px solid #222;
+  border-bottom: 5px solid #222;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button div:active {
+  border-bottom: 2px solid #222;
+  top: 2px;
+}
+.button__play {
+  text-decoration: none;
+}
+.button__play div {
+  width: 150px;
+  border-radius: 17px;
+}
+.button__play div span {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.button__like div,
+.button__add div {
+  width: 57px;
+  border-radius: 60%;
+}
